@@ -7,3 +7,14 @@ error: failed to push some refs to <repo_url>
 solution :  
 1. git pull --allow-unrelated-histories
 2. git push origin master --allow-unrelated-histories
+
+
+(1) rm -rf .git/
+
+(2) git init
+
+(3) git remote add origin https://repository.remote.url 79
+
+(4) git commit -m “Commit message”
+
+(5) git push -f origin master
