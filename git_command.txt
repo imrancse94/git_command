@@ -2,3 +2,8 @@ $ git remote rm origin
 $ git remote add origin <repo_url>
 $ git config master.remote origin
 $ git config master.merge refs/heads/master
+
+error: failed to push some refs to <repo_url>
+solution :  
+1. git pull --allow-unrelated-histories
+2. git push origin master --allow-unrelated-histories
